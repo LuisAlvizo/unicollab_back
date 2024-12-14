@@ -28,10 +28,10 @@ const upload = multer({ storage });
 
 // Configuración de MySQL
 const connection = mysql.createConnection({
-  host: '192.168.100.118',
-  user: 'cluster1',
-  password: 'Password123#',
-  database: 'mydb'
+  host: 'localhost',
+  user: 'root',
+  password: 'root',
+  database: 'unicollabq'
 });
 
 connection.connect();
